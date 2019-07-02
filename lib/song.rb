@@ -27,5 +27,9 @@ class Song
     new_create_by_name.name = name
     new_create_by_name
   end
+  
+  def self.find_by_name (name)
+    
+  end
 
 end
