@@ -23,8 +23,9 @@ class Song
   end
   
   def self.create_by_name (name)
-    create_by_name = self.new_by_name(name)
-    self.all << create_by_name
+    new_create_by_name = self.create
+    new_create_by_name.name = name
+    
   end
 
 end
